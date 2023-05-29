@@ -1,0 +1,6 @@
+[tool.pytest.ini_options]
+pythonpath = [
+  ".", "src",
+]
+#Указание, где лежит приложение 
+asyncio_mode="auto"
